@@ -7,21 +7,29 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/servlet1")
+@WebServlet("/Login")
 
 public class Login extends HttpServlet
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public void doPost(HttpServletRequest request,HttpServletResponse response)throws ServletException,IOException
 	{
+		
 		response.setContentType("text/html");
 		PrintWriter out=response.getWriter();
 		
 		String n=request.getParameter("userName");
+		//System.out.println(n);
 		String p=request.getParameter("userPass");
+		//System.out.println(Validate.checkUser(n,p));
 		
-		if(p.equals("servlet"))
+		if(Validate.checkUser(n,p))
 		{
-			RequestDispatcher rd=request.getRequestDispatcher("servlet2");
+			RequestDispatcher rd=request.getRequestDispatcher("WelcomePage");
 			rd.forward(request,response);
 		}
 		else
