@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+@import url(https://fonts.googleapis.com/css?family=Allerta+Stencil);
+#Home{
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  background: url("http://wallpapercave.com/wp/hE1yjkb.jpg")no-repeat center fixed;
+  height:900px;
+}
+#About{
+    padding-top: 100px;
+    padding-right: 750px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+  background: url("http://www.texturex.com/albums/Metal-Textures/TextureX%20Brushed%20Spin%20Aluminum%20Metal%20Texture%20Stock%20Texture.jpg")no-repeat center fixed;
+  height:900px;
+}
+#Portfolio{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  background: url("http://1.bp.blogspot.com/-l7-idBlowRQ/UPAXm1Te3HI/AAAAAAAAECw/R2sXS5Fn7Ao/s1600/Abstract+flash++fine+hd+wallpaper.jpg")no-repeat center fixed;
+  height:900px;
+}
+#Contact{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  background: url("http://cdn.wallpapersafari.com/98/34/a1RX05.jpg")no-repeat center fixed;
+  height:900px;
+}
+
+.main{
+  text-align:center;
+  padding-top:50px;
+  font-weight:bold;
+  font-size:50px;
+  font-family:Allerta Stencil;
+  color:#000000;
+}
+.tagline{
+  text-align:center;
+  padding-top:10px;
+  font-size:20px;
+  font-family:Allerta Stencil;
+  color:#000000;
+}
+.red{
+  font-color:red;
+}
+.green{
+  font-color:green;
+}
+.blue{
+  font-color:blue;
+}
+.magenta{
+  font-color:magenta;
+}
+.white{
+  font-color:white;
+}
+.btn{
+  padding: 14px 24px;
+  border: 2px solid;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius:10px;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+.btn-primary {
+    background: #FFFFFF;
+    color: #000000;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #000000;
+    color: #FF0000;
+}
+.btn-primary:active, .btn-primary.active {
+    background: #ff33cc;
+    box-shadow: none;
+}
+.myself{
+  padding-top:40px;
+  font-size:20px;
+  font-weight:bold;
+  line-height:35px;
+}
+
+#contactInfo{
+  padding-top:400px;
+  padding-bottom:10px;
+  text-align:center;
+}
+
+#footer{
+  padding-top:50px;
+  padding-bottom:20px;
+  padding-left:50px;
+  background:#ccccb3;
+  line-height:25px;
+}
+
+.links{
+  padding-right:20px;
+}
+
+#portfolioInfo{
+  padding-top:50px;
+  text-align:center;
+  text-weight:bold;
+}
+
+.circular{
+  width:250px;
+  height:250px;
+  border-radius:125px;
+}

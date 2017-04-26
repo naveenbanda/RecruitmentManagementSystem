@@ -27,7 +27,7 @@ public class Login extends HttpServlet
 		String p=request.getParameter("userPass");
 		//System.out.println(Validate.checkUser(n,p));
 		
-		if(Validate.checkUser(n,p))
+		if(Validate.checkUserLogin(n,p))
 		{
 			RequestDispatcher rd=request.getRequestDispatcher("WelcomePage");
 			rd.forward(request,response);
