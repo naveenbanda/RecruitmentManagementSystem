@@ -22,8 +22,9 @@
         </div>
         <div class="collapse navbar-collapse" id=".navbar-collapse">
           <ul class="nav navbar-nav pull-right">
-            <li><a href="login.jsp">Login</a></li>
-            <li><a href="signup.jsp">Register</a></li>
+          	<li><a href="searchJobs.jsp">Search Jobs</a></li>
+            <li><a href="profile.jsp">Profile</a></li>
+            <li><a href="logout.jsp">Logout</a></li>
           </ul>
         </div>
       </div>
