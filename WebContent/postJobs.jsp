@@ -1,3 +1,15 @@
+<%
+	if(session.getAttribute("email")==null || session.getAttribute("email")=="")
+	{
+%>
+	You are not logged in<br/>
+	<a href="recruiterLogin.jsp">Login</a>
+<%
+}
+else
+{
+%>
+
 <html>
 <head>
 <title>
@@ -47,10 +59,12 @@ if(login_msg!=null)
 	Duration 		:	<input type="text" name="duration"/><br/><br/>
 	Stipend			:	<input type="text" name="stipend"/><br/><br/>
 	Apply Till		:	<input type="text" name="applyTill"/> (Format : yyyy-mm-dd)<br/><br/>
-	Posted On		:	<input type="text" name="postedDate" value="<%=date%>" disabled/> (Format : yyyy-mm-dd)<br/><br/>
+	<input type="hidden" name="postedOn" value="<%=date%>"/>
+	Posted On		:	<input type="text" name="postedOn" value="<%=date%>" disabled/> (Format : yyyy-mm-dd)<br/><br/>
 	<textarea rows="8" cols="100" placeholder="Give Description about the Job and Job roles" name="about"></textarea><br/><br/>
 	<textarea rows="8" cols="100" placeholder="Qualifications and Skills required for the Job" name="requirement"></textarea><br/><br/>
 	
+	<input type="submit" value="Post"/>
 		
 </form>
 
@@ -59,3 +73,7 @@ if(login_msg!=null)
 </body>
 
 </html>
+
+<%
+}
+%>
