@@ -22,7 +22,8 @@
         </div>
         <div class="collapse navbar-collapse" id=".navbar-collapse">
           <ul class="nav navbar-nav pull-right">
-          	<li><a href="searchJobs.jsp">Search Jobs</a></li>
+          	<li><a href="resume.jsp">Upload Resume</a></li>
+          	<li><a href="displayJobs.jsp">Search Jobs</a></li>
             <li><a href="profile.jsp">Profile</a></li>
             <li><a href="logout.jsp">Logout</a></li>
           </ul>
