@@ -34,18 +34,17 @@ try
 	
 	//out.println(email);
 	
-	PreparedStatement ps=con.prepareStatement("select * from Info where email=?");
+	PreparedStatement ps=con.prepareStatement("select * from Recruiter where email=?");
 	ps.setString(1,email);
 	ResultSet rs=ps.executeQuery();
 	
-	String password="",DOB="",gender="",name="";
+	String password="",contact="",name="";
 	
 	while(rs.next())
 	{
 	
 	password=rs.getString("password");
-	DOB=rs.getString("DOB");
-	gender=rs.getString("gender");
+	contact=rs.getString("contact");
 	name=rs.getString("name");
 	
 	}
@@ -61,27 +60,26 @@ try
 
     <body>
         <div class="container">
-            <center>  <div class="name"><h2><%=name %></h2></div></center>
+            <center>  <div class="CompanyName"><h2><%=name %></h2></div></center>
             <hr><br>
             <div id="email"><h3>Email : <%=email %></h3></div>
-            <div id="DOB"><h3>DOB : <%=DOB %></h3></div>
-            <div id="gender"><h3>Gender : <%=gender %></h3></div>
+            <div id="contact"><h3>Contact: <%=contact %></h3></div>
 		</div>
 		
-		<div class="container" id="showAppliedJobs">
+		<div class="container" id="shoPostedJobs">
 		<%
 
 		try
 		{
 			con=bean.ConnectionProvider.getCon();
 	
-			ps=con.prepareStatement("select Jobs.id,Jobs.title,Jobs.type,Jobs.startDate,Jobs.lastDate from Jobs,apply where Jobs.id=apply.id and apply.email=?");
+			ps=con.prepareStatement("select Jobs.id,Jobs.title,Jobs.type,Jobs.startDate,Jobs.lastDate from Jobs where email=?");
 			ps.setString(1,email);
 			rs=ps.executeQuery();
 		%>
 	
 		<center>
-		<div class="appliedTable"><h2>Applied Jobs</h2></div>
+		<div class="postedTable"><h2>Posted Jobs</h2></div>
 		<table border="5">
 			<tr>
 				<th>ID</th>

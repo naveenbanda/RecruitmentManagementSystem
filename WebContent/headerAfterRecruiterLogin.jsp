@@ -22,6 +22,7 @@
         </div>
         <div class="collapse navbar-collapse" id=".navbar-collapse">
           <ul class="nav navbar-nav pull-right">
+          	<li><a href="applicantInfo.jsp">Applicant Info</a></li>
           	<li><a href="postJobs.jsp">Post Jobs</a></li>
             <li><a href="recruiterProfile.jsp">Profile</a></li>
             <li><a href="logout.jsp">Logout</a></li>

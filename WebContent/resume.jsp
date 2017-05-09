@@ -6,7 +6,7 @@
 <body>
     <center>
         <h1>Upload Resume</h1>
-        <form method="post" action="ResumeUpload" enctype="multipart/form-data">
+        <form method="post" action="resumeMessage.jsp" enctype="multipart/form-data">
             <table border="0">
                
                 <tr>

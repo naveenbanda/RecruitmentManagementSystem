@@ -19,8 +19,8 @@ try
 {
 	Connection con=bean.ConnectionProvider.getCon();
 	
-	PreparedStatement ps=con.prepareStatement("select id,title,type,startDate,lastDate from Jobs");
-	
+	PreparedStatement ps=con.prepareStatement("select Jobs.id,title,apply.email from Jobs,apply where Jobs.id=apply.id and Jobs.email=?");
+	ps.setString(1,session.getAttribute("email").toString());
 	ResultSet rs=ps.executeQuery();
 %>
 	
@@ -30,27 +30,24 @@ try
 	<tr>
 	<th>ID</th>
 	<th>Title</th>
-	<th>Type</th>
-	<th>Start Date</th>
-	<th>Apply Till</th>
+	<th>Applicant Email</th>
+	<th>Resume</th>
 	
 	</tr>
 
 <%	
 	while(rs.next())
 	{
-		int id=rs.getInt("id");
+		int id=rs.getInt("Jobs.id");
 		String title=rs.getString("title");
-		String type=rs.getString("type");
-		String startDate=rs.getString("startDate");
-		String applyTill=rs.getString("lastDate");
+		String email=rs.getString("apply.email");
+		
 %>	
-		<tr onclick="location.href='jobInfo.jsp?id=<%=id%>'">
+		<tr>
 		<td><%=id %></td>
 		<td><%=title %></td>
-		<td><%=type %></td>
-		<td><%=startDate %></td>
-		<td><%=applyTill %></td>
+		<td><%=email %></td>
+		<td><a href="downloadResume.jsp?email=<%=email%>">Download</a></td>
 		</tr>
 		
 <%
