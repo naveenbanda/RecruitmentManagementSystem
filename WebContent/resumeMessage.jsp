@@ -1,3 +1,7 @@
+<div id="ResumeMessage">
+
+<%@ include file="headerAfterLogin.jsp"%>
+
 <%
 	if(session.getAttribute("email")==null || session.getAttribute("email")=="")
 	{
@@ -100,4 +104,6 @@ else
 }
 
 %>
+
+</div>
        

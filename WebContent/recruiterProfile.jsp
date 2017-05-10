@@ -1,3 +1,5 @@
+<%@ include file="headerAfterRecruiterLogin.jsp"%>
+
 <html>
     <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -59,14 +61,15 @@ try
 %>
 
     <body>
+    <div id="RecruiterProfile">
         <div class="container">
             <center>  <div class="CompanyName"><h2><%=name %></h2></div></center>
             <hr><br>
             <div id="email"><h3>Email : <%=email %></h3></div>
-            <div id="contact"><h3>Contact: <%=contact %></h3></div>
+            <div><h3>Contact: <%=contact %></h3></div>
 		</div>
 		
-		<div class="container" id="shoPostedJobs">
+		<div class="container">
 		<%
 
 		try
@@ -128,7 +131,7 @@ catch(Exception e)
 %>		
 		</div>
 		
-		
+		</div>
     </body>
 </html>
 

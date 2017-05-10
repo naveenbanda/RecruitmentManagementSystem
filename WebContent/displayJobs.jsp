@@ -1,3 +1,7 @@
+<%@ include file="headerAfterRecruiterLogin.jsp"%>
+
+<div id="DisplayJobs">
+
 <%
 	if(session.getAttribute("email")==null || session.getAttribute("email")=="")
 	{
@@ -75,3 +79,5 @@ catch(Exception e)
 	}
 
 %>
+
+</div>

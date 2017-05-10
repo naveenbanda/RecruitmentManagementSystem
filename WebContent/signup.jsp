@@ -1,8 +1,11 @@
+<%@ include file="header.jsp"%>
+
 <html>
 <head>
 <title>SignUp Page</title>
 </head>
 <body>
+<div id="SignUp">
 <center>
 <h1>
 WeRecruits.com
@@ -43,6 +46,6 @@ if(login_msg!=null)
 Already have an account <a href="login.jsp">Login</a>
 
 </center>
-
+</div>
 </body>
 </html>

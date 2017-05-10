@@ -1,3 +1,5 @@
+<%@ include file="headerAfterRecruiterLogin.jsp"%>
+
 <%
 	if(session.getAttribute("email")==null || session.getAttribute("email")=="")
 	{
@@ -18,7 +20,7 @@ Post Jobs
 </head>
 
 <body>
-
+<div id="PostJobs">
 <center>
 
 <h1>
@@ -69,6 +71,8 @@ if(login_msg!=null)
 </form>
 
 </center>
+
+</div>
 
 </body>
 

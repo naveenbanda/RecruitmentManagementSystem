@@ -33,6 +33,123 @@
   height:900px;
 }
 
+#ApplicantInfo{
+    padding-top: 80px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  background: url("http://awesomwallpaper.com/img2/AA64A4B3FC61AFBC/gaussian-blur-wallpaper-high.jpg")no-repeat center fixed;
+  height:900px;
+}
+
+#Apply{
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  background: url("https://cdn.shutterstock.com/shutterstock/videos/4911308/thumb/1.jpg?i10c=img.resize(height:160)")no-repeat center fixed;
+  height:900px;
+}
+
+#DisplayJobs{
+    padding-top: 80px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  background: url("http://tupian.enterdesk.com/2012/0421/127/12.jpg")no-repeat center fixed;
+  height:900px;
+}
+
+#JobInfo{
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  background: url("http://wallgallery.org/wp-content/uploads/2016/05/Grey-Abstract-pictures.jpg")no-repeat center fixed;
+  height:900px;
+}
+
+#Profile{
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  background: url("http://image.shutterstock.com/z/stock-photo-abstract-blurred-gray-colour-background-287563553.jpg")no-repeat center fixed;
+  height:900px;
+}
+
+#Login{
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  background: url("http://www.solidbackgrounds.com/images/2560x1440/2560x1440-gray-blue-solid-color-background.jpg")no-repeat center fixed;
+  height:900px;
+}
+
+#PostJobs{
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  background: url("http://www.asmarya.edu.ly/journal2/wp-content/uploads/2015/09/original.jpg")no-repeat center fixed;
+  height:900px;
+}
+
+#RecruiterLogin{
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  background: url("http://s378061888.onlinehome.us/wp-content/uploads/2013/01/brushedBG.jpg")no-repeat center fixed;
+  height:900px;
+}
+
+#RecruiterProfile{
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  background: url("http://www.designbolts.com/wp-content/uploads/2014/03/Light-HD-Background1.jpg")no-repeat center fixed;
+  height:900px;
+}
+
+#RecruiterSignUp{
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  background: url("https://s-media-cache-ak0.pinimg.com/originals/90/b3/03/90b303ceaff110930d2fa43488b24eaf.jpg")no-repeat center fixed;
+  height:900px;
+}
+
+#Resume{
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  background: url("http://compliance-ce.com.br/wp-content/uploads/2015/06/bg-treinamentos.jpg")no-repeat center fixed;
+  height:900px;
+}
+
+#ResumeMessage{
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  background: url("http://mcedmonton.ca/wp-content/uploads/2017/02/light-bg.png")no-repeat center fixed;
+  height:900px;
+}
+
+#SignUp{
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  background: url("http://www.webdesignburn.com/wp-content/uploads/2015/04/Grey-Texture-Background-and-Wallpaper-22.jpg")no-repeat center fixed;
+  height:900px;
+}
+
 .main{
   text-align:center;
   padding-top:50px;

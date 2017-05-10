@@ -1,3 +1,6 @@
+<%@ include file="headerAfterLogin.jsp"%>
+
+<div id="Apply">
 
 <%
 	
@@ -65,3 +68,5 @@ catch(Exception e)
 }
 
 %>
+
+</div>

@@ -1,3 +1,5 @@
+<%@ include file="headerAfterLogin.jsp"%>
+
 <html>
     <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -60,6 +62,7 @@ try
 %>
 
     <body>
+    <div id="Profile">
         <div class="container">
             <center>  <div class="name"><h2><%=name %></h2></div></center>
             <hr><br>
@@ -130,7 +133,7 @@ catch(Exception e)
 %>		
 		</div>
 		
-		
+		</div>
     </body>
 </html>
 

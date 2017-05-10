@@ -1,3 +1,7 @@
+<%@ include file="headerAfterLogin.jsp"%>
+
+<div id="JobInfo">
+
 <html>
     <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -96,12 +100,12 @@ try
       <td><%=applyTill %></td><tr></table>
             <br> <br>
             <div class="container"><h3>About The Job</h3><p><%=about %></p>
-                </div> <br><br>
+                </div> <br>
             <div class="container">
                 <h3>Requirement</h3><p><%=requirement %></p>
                 
                 
-            </div><br><br>
+            </div><br>
             <div><h3>Contact : </h3><%=contact %></div>
             <div><h3>Email : </h3><%=email %></div>
             
@@ -109,9 +113,7 @@ try
         		<input type="submit" value="Apply"/>
 			</form>
             
-        </div>           <br><br>
-           <br><br>
-            <br><br>
+        </div>          
             
         
         
@@ -136,4 +138,6 @@ catch(Exception e)
 	}
 
 %>
+
+</div>
 

@@ -1,8 +1,11 @@
+<%@ include file="header.jsp"%>
+
 <html>
 <head>
 <title>Login Page</title>
 </head>
 <body>
+<div id="Login">
 <center>
 <h1>
 WeRecruits.com
@@ -35,6 +38,9 @@ Password: <input type="password" name="pass"/><br/><br/>
 New User <a href="signup.jsp">Sign Up</a>
 
 </center>
-
+</div>
+</div>
 </body>
 </html>
+
+
